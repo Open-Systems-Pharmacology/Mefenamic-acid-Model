@@ -4,7 +4,7 @@ Studies including only oral applications of mefenamic acid could be used for mod
 
 Dissolution kinetics of the Ponstan capsule  were implemented via an empirical Weibull dissolution tablet. It was tried to identify the respective parameters. Model building, however, showed that these parameters do not appear to be rate-limiting. Thus, the values were fixed to an instantaneous release with a `Dissolution time (50% dissolved)` of 1 minute and a `Dissolution shape` of 10. 
 
-Mefenamic acid is typically administered in fed conditions. Mefenamic acid was administered in the in-house study ([Becker 2016](#5-References)) with meals or snacks.
+Mefenamic acid is typically administered in fed conditions. Mefenamic acid was administered in the in-house study ([Becker 2015](#5-References)) with meals or snacks.
 
 For the 5th administration at 24 h in this study (simultaneous administration with vericiguat) a standard meal in PK-Sim `Meal: High-fat breakfast (Human)` was considered. All other administration considered a snack. The parameter (`Meal energy content`) for this snack was optimized to best match clinical data  (see also [Section 2.3.5](#2.3.5-Automated-Parameter-Identification)).
 

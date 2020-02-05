@@ -95,7 +95,7 @@ The following publications were found in adults and, unless noted otherwise, use
 | [Hamaguchi 1987](#5-References)               | Treatment 2 - fasted with 200 mL of water - with an oral single dose of 250 mg, fasted |
 | [Mahadik 2012](#5-References)                 | Reference (Ponstan capsule)  with an oral single dose of 250 mg, fasted |
 | [Rouini 2005](#5-References)                  | Reference (Ponstan capsule) with an oral single dose of 250 mg, fasted |
-| [Becker 2016](#5-References) <br />(in-house) | 500 mg oral dose, fed condition,<br />then 250 mg oral dose every 6 h (8 doses), fed conditions<br />***confidential data*** |
+| [Becker 2015](#5-References) <br />(in-house) | 500 mg oral dose, fed condition,<br />then 250 mg oral dose every 6 h (8 doses), fed conditions<br />***confidential data*** |
 | [Goosen 2017](#5-References)                  | ***not used for model building (unclear study design)***<br />500 mg oral dose |
 
 
@@ -106,7 +106,7 @@ Studies including only oral applications of mefenamic acid could be used for mod
 
 Dissolution kinetics of the Ponstan capsule  were implemented via an empirical Weibull dissolution tablet. It was tried to identify the respective parameters. Model building, however, showed that these parameters do not appear to be rate-limiting. Thus, the values were fixed to an instantaneous release with a `Dissolution time (50% dissolved)` of 1 minute and a `Dissolution shape` of 10. 
 
-Mefenamic acid is typically administered in fed conditions. Mefenamic acid was administered in the in-house study ([Becker 2016](#5-References)) with meals or snacks.
+Mefenamic acid is typically administered in fed conditions. Mefenamic acid was administered in the in-house study ([Becker 2015](#5-References)) with meals or snacks.
 
 For the 5th administration at 24 h in this study (simultaneous administration with vericiguat) a standard meal in PK-Sim `Meal: High-fat breakfast (Human)` was considered. All other administration considered a snack. The parameter (`Meal energy content`) for this snack was optimized to best match clinical data  (see also [Section 2.3.5](#235-Automated-Parameter-Identification)).
 
@@ -160,9 +160,9 @@ The next sections show:
 
 1. the final model parameters for the building blocks: [Section 3.1](#31-Final-Input-Parameters).
 2. the overall goodness of fit: [Section 3.2](#32-Diagnostics-Plots).
-   *Note that data from [Becker 2016](#5-References) are not shown for data confidentiality reasons.*
+   *Note that data from [Becker 2015](#5-References) are not shown for data confidentiality reasons.*
 3. simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: [Section 3.3](#33-Concentration-Time-Profiles).
-   *Note that data from [Becker 2016](#5-References) are not shown for data confidentiality reasons.*
+   *Note that data from [Becker 2015](#5-References) are not shown for data confidentiality reasons.*
 
 
 ## 3.1 Final input parameters
