@@ -929,50 +929,6 @@
       "PlasmaProteinBindingPartner": "Albumin",
       "Lipophilicity": [
         {
-          "Name": "Kuentz 2008",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 3.52,
-              "Unit": "Log Units"
-            }
-          ]
-        },
-        {
-          "Name": "Simcyp",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 5.3,
-              "Unit": "Log Units"
-            }
-          ]
-        },
-        {
-          "Name": "DrugBank",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 5.12,
-              "Unit": "Log Units"
-            }
-          ]
-        },
-        {
-          "Name": "Vitas-M Lab",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 5.33,
-              "Unit": "Log Units"
-            }
-          ]
-        },
-        {
           "Name": "Optimized",
           "Parameters": [
             {
@@ -990,19 +946,7 @@
       ],
       "FractionUnbound": [
         {
-          "Name": "Kuentz 2008",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 1.0,
-              "Unit": "%"
-            }
-          ]
-        },
-        {
-          "Name": "Simcyp",
+          "Name": "Goosen 2016",
           "Species": "Human",
           "Parameters": [
             {
@@ -1019,36 +963,6 @@
         }
       ],
       "Solubility": [
-        {
-          "Name": "Kuentz 2008",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 46.0,
-              "Unit": "µg/ml"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 5.5
-            }
-          ]
-        },
-        {
-          "Name": "Water solubility (DrugBank)",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 20.0,
-              "Unit": "mg/l"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 7.0
-            }
-          ]
-        },
         {
           "Name": "Optimized",
           "Parameters": [
@@ -1082,19 +996,6 @@
                 "Method": "ParameterIdentification",
                 "Description": "Value updated from 'PI (Pint, CLspec, Lipo, Solub, meal; fu=1.9, Disso fix) FINAL' on 2019-08-06 18:52"
               }
-            }
-          ]
-        }
-      ],
-      "Permeability": [
-        {
-          "Name": "Optimized",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Permeability",
-              "Value": 1.0,
-              "Unit": "cm/min"
             }
           ]
         }
@@ -1364,490 +1265,6 @@
   ],
   "Simulations": [
     {
-      "Name": "PO SD 250 mg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)",
-        "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)",
-        "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|250 mg SD|Ponstan capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Standard_Adult",
-      "Compounds": [
-        {
-          "Name": "Mefenamic acid",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_SOLUBILITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_LIPOPHILICITY"
-            },
-            {
-              "AlternativeName": "Simcyp",
-              "GroupName": "COMPOUND_FRACTION_UNBOUND"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Total Hepatic Clearance-Simcyp (oral CL)"
-            }
-          ],
-          "Protocol": {
-            "Name": "250 mg SD",
-            "Formulations": [
-              {
-                "Name": "Ponstan capsule",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "PO SD 250 mg-Mefenamic acid-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "PO SD 250 mg|Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)|Time",
-              "Y": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "PO SD 250 mg (log)",
-          "Title": "PO SD 250 mg",
-          "OriginText": "Mefenamic_acid\nPO SD 250 mg\n2019-08-19 10:32"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "PO SD 250 mg-Mefenamic acid-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "PO SD 250 mg|Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)|Time",
-              "Y": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF00FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "PO SD 250 mg (lin)",
-          "Title": "PO SD 250 mg",
-          "OriginText": "Mefenamic_acid\nPO SD 250 mg\n2019-08-19 10:32"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "UGT1A9-PH-41095",
-          "MoleculeName": "UGT1A9",
-          "CompoundName": "Mefenamic acid"
-        }
-      ]
-    },
-    {
-      "Name": "PO SD 500 mg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg."
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|500 mg SD|Ponstan capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Standard_Adult",
-      "Compounds": [
-        {
-          "Name": "Mefenamic acid",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_SOLUBILITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_LIPOPHILICITY"
-            },
-            {
-              "AlternativeName": "Simcyp",
-              "GroupName": "COMPOUND_FRACTION_UNBOUND"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Total Hepatic Clearance-Simcyp (oral CL)"
-            }
-          ],
-          "Protocol": {
-            "Name": "500 mg SD",
-            "Formulations": [
-              {
-                "Name": "Ponstan capsule",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "PO SD 500 mg-Mefenamic acid-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "PO SD 500 mg|Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.|Time",
-              "Y": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "PO SD 500 mg (log)",
-          "Title": "PO SD 500 mg",
-          "OriginText": "Mefenamic_acid\nPO SD 500 mg\n2019-08-19 10:32"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "PO SD 500 mg-Mefenamic acid-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "PO SD 500 mg|Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.|Time",
-              "Y": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "PO SD 500 mg (lin)",
-          "Title": "PO SD 500 mg",
-          "OriginText": "Mefenamic_acid\nPO SD 500 mg\n2019-08-19 10:32"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "UGT1A9-PH-41095",
-          "MoleculeName": "UGT1A9",
-          "CompoundName": "Mefenamic acid"
-        }
-      ]
-    },
-    {
       "Name": "PO MD 500 mg loading / 250 mg every 6 h",
       "Model": "4Comp",
       "Solver": {},
@@ -1953,22 +1370,6 @@
             "Cellular permeability - PK-Sim Standard"
           ],
           "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_SOLUBILITY"
-            },
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_LIPOPHILICITY"
-            },
-            {
-              "AlternativeName": "Simcyp",
-              "GroupName": "COMPOUND_FRACTION_UNBOUND"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
             {
               "AlternativeName": "Optimized",
               "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
@@ -2317,6 +1718,458 @@
           ],
           "Name": "PO MD 500 mg loading / 250 mg every 6 h (log, individuals)",
           "OriginText": "Mefenamic_acid\nPO MD 500 mg loading / 250 mg every 6 h\n2019-08-25 20:13"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "UGT1A9-PH-41095",
+          "MoleculeName": "UGT1A9",
+          "CompoundName": "Mefenamic acid"
+        }
+      ]
+    },
+    {
+      "Name": "PO SD 250 mg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)",
+        "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)",
+        "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|250 mg SD|Ponstan capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard_Adult",
+      "Compounds": [
+        {
+          "Name": "Mefenamic acid",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-Simcyp (oral CL)"
+            }
+          ],
+          "Protocol": {
+            "Name": "250 mg SD",
+            "Formulations": [
+              {
+                "Name": "Ponstan capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 250 mg-Mefenamic acid-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 250 mg|Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)|Time",
+              "Y": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 250 mg (log)",
+          "Title": "PO SD 250 mg",
+          "OriginText": "Mefenamic_acid\nPO SD 250 mg\n2019-08-19 10:32"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 250 mg-Mefenamic acid-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 250 mg|Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)|Time",
+              "Y": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 250 mg (lin)",
+          "Title": "PO SD 250 mg",
+          "OriginText": "Mefenamic_acid\nPO SD 250 mg\n2019-08-19 10:32"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "UGT1A9-PH-41095",
+          "MoleculeName": "UGT1A9",
+          "CompoundName": "Mefenamic acid"
+        }
+      ]
+    },
+    {
+      "Name": "PO SD 500 mg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg."
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|500 mg SD|Ponstan capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Standard_Adult",
+      "Compounds": [
+        {
+          "Name": "Mefenamic acid",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-Simcyp (oral CL)"
+            }
+          ],
+          "Protocol": {
+            "Name": "500 mg SD",
+            "Formulations": [
+              {
+                "Name": "Ponstan capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 500 mg-Mefenamic acid-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 500 mg|Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.|Time",
+              "Y": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 500 mg (log)",
+          "Title": "PO SD 500 mg",
+          "OriginText": "Mefenamic_acid\nPO SD 500 mg\n2019-08-19 10:32"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "PO SD 500 mg-Mefenamic acid-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "PO SD 500 mg|Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.-Mefenamic acid-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.|Time",
+              "Y": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.|ObservedData|Peripheral Venous Blood|Plasma|Mefenamic acid|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "PO SD 500 mg (lin)",
+          "Title": "PO SD 500 mg",
+          "OriginText": "Mefenamic_acid\nPO SD 500 mg\n2019-08-19 10:32"
         }
       ],
       "Interactions": [
