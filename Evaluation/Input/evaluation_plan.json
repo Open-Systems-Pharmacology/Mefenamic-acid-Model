@@ -1,0 +1,262 @@
+﻿{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "Mefenamic acid",
+            "Path": "../../Mefenamic_acid.json",
+            "BuildingBlocks": []
+        }
+    ],
+    "ObservedDataSets": [],
+    "Plots": {
+        "AxesSettings": {
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "ComparisonTimeProfile": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsResidualsVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "PKRatioPlots": [
+                {
+                    "Type": "X",
+                    "Dimension": "Age",
+                    "Unit": "year(s)",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
+        "PlotSettings": {
+            "ChartWidth": 500,
+            "ChartHeight": 400,
+            "Fonts": {
+                "AxisSize": 11,
+                "LegendSize": 9,
+                "OriginSize": 9,
+                "FontFamilyName": "Arial",
+                "WatermarkSize": 40
+            }
+        },
+        "GOFMergedPlots": [
+            {
+                "Title": "Goodness of fit plot for concentration in plasma",
+                "SectionId": 32,
+                "PlotType": "predictedVsObserved|residualsOverTime",
+                "Groups": [
+                    {
+                        "Caption": "PO fasted - Ponstan capsule SD administration",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Mefenamic acid",
+                                "Simulation": "PO SD 250 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Mefenamic acid",
+                                "Simulation": "PO SD 250 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Mefenamic acid",
+                                "Simulation": "PO SD 250 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Mefenamic acid",
+                                "Simulation": "PO SD 500 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg.",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                ]
+            }
+        ],
+        "AllPlots": [
+            {
+                "Project": "Mefenamic acid",
+                "Simulation": "PO MD 500 mg loading / 250 mg every 6 h",
+                "SectionId": 33
+            },
+            {
+                "Project": "Mefenamic acid",
+                "Simulation": "PO SD 250 mg",
+                "SectionId": 33
+            },
+            {
+                "Project": "Mefenamic acid",
+                "Simulation": "PO SD 500 mg",
+                "SectionId": 33
+            }
+        ]
+    },
+    "Inputs": [
+        {
+            "Project": "Mefenamic acid",
+            "Name": "Mefenamic acid",
+            "Type": "Compound",
+            "SectionId": 31
+        },
+        {
+            "Name": "Ponstan capsule",
+            "Project": "Mefenamic acid",
+            "Type": "Formulation",
+            "SectionId": 31
+        }
+    ],
+    "Sections": [
+        {
+            "Id": 1,
+            "Title": "1 Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Id": 2,
+            "Title": "2 Methods",
+            "Content": "Content/Section2_Methods.md",
+            "Sections": [
+                {
+                    "Id": 21,
+                    "Title": "2.1 Modeling Strategy",
+                    "Content": "Content/Section2.1_Modeling_Strategy.md"
+                },
+                {
+                    "Id": 22,
+                    "Title": "2.2 Data",
+                    "Content": "Content/Section2.2_Data.md"
+                },
+                {
+                    "Id": 23,
+                    "Title": "2.3 Model Parameters and Assumptions",
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "Title": "3 Results and Discussion",
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Sections": [
+                {
+                    "Id": 31,
+                    "Title": "3.1 Final input parameters",
+                    "Content": "Content/Input_table.md"
+                },
+                {
+                    "Id": 32,
+                    "Title": "3.2 Diagnostics Plots",
+                    "Content": "Content/GOF_diagnostics.md"
+                },
+                {
+                    "Id": 33,
+                    "Title": "3.3 Concentration-Time Profiles",
+                    "Content": "Content/Concentration_time_profiles.md",
+                }
+            ]
+        },
+        {
+            "Id": 4,
+            "Title": "4 Conclusion",
+            "Content": "Content/Section4_Conclusion.md"
+        },
+        {
+            "Id": 5,
+            "Title": "5 References",
+            "Content": "Content/References.md"
+        }
+    ],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
+        }
+    ]
+}
