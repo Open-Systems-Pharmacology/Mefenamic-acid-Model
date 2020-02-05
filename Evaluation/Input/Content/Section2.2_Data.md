@@ -30,6 +30,6 @@ The following publications were found in adults and, unless noted otherwise, use
 | [Hamaguchi 1987](#5-References)               | Treatment 2 - fasted with 200 mL of water - with an oral single dose of 250 mg, fasted |
 | [Mahadik 2012](#5-References)                 | Reference (Ponstan capsule)  with an oral single dose of 250 mg, fasted |
 | [Rouini 2005](#5-References)                  | Reference (Ponstan capsule) with an oral single dose of 250 mg, fasted |
-| [Becker 2016](#5-References) <br />(in-house) | 500 mg oral dose, fed condition,<br />then 250 mg oral dose every 6 h (8 doses), fed conditions<br />***confidential data*** |
+| [Becker 2015](#5-References) <br />(in-house) | 500 mg oral dose, fed condition,<br />then 250 mg oral dose every 6 h (8 doses), fed conditions<br />***confidential data*** |
 | [Goosen 2017](#5-References)                  | ***not used for model building (unclear study design)***<br />500 mg oral dose |
 
