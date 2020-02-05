@@ -159,13 +159,13 @@ The model does not quantify specific metabolic pathways of mefenamic acid as it 
 The next sections show:
 
 1. the final model parameters for the building blocks: [Section 3.1](#31-Final-Input-Parameters).
-2. the overall goodness of fit: [Section 3.2](#32-Diagnostics Plots).
+2. the overall goodness of fit: [Section 3.2](#32-Diagnostics-Plots).
    *Note that data from [Becker 2016](#5-References) are not shown for data confidentiality reasons.*
 3. simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: [Section 3.3](#33-Concentration-Time-Profiles).
    *Note that data from [Becker 2016](#5-References) are not shown for data confidentiality reasons.*
 
 
-#### 3.1 Final input parameters
+## 3.1 Final input parameters
 The compound parameter values of the final mefenamic acid PBPK model are illustrated below.
 
 
