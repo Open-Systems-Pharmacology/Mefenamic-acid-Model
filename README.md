@@ -1,6 +1,9 @@
 # Mefenamic-acid-Model
 Whole-body PBPK model of mefenamic acid.
 
+<a title="Mefenamic acid" href="https://commons.wikimedia.org/wiki/File:Mefenamic_acid2DACS.svg"><img width="512" alt="Mefenamic acid2DACS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Mefenamic_acid2DACS.svg/512px-Mefenamic_acid2DACS.svg.png"></a>
+
+
 Mefenamic acid is a UGT1A9 inhibitor.
 
 **The latest release of this model including a report on model building, model features and model evaluation can be found [here](../../releases/latest).**
