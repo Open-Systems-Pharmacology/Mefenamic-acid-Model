@@ -4,11 +4,16 @@
 
 
 
-| Version                                         | TODO                                                         |
+| Version                                         | x.x-OSPy.y                                                   |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| Model file and Evaluation Report                | https://github.com/Open-Systems-Pharmacology/Mefenamic-acid-Model |
-| based on *Model Snapshot* and *Evaluation Plan* | 1.1<br />https://github.com/Open-Systems-Pharmacology/Mefenamic-acid-Model/releases/tag/v1.1 |
-| OSP version                                     | 9.0                                                          |
-| Qualification framework version                 | 2.1                                                          |
-| Author                                          | Sebastian Frechen ([sfrechen](https://github.com/sfrechen))  |
+| based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Mefenamic-acid-Model/releases/tag/vx.x |
+| OSP Version                                     | y.y                                                          |
+| Qualification Framework Version                 | z.z                                                          |
 
+
+
+
+
+This evaluation report and the corresponding PK-Sim project file are filed at:
+
+https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/
