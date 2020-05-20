@@ -4,10 +4,18 @@ Whole-body PBPK model of mefenamic acid.
 <a title="Mefenamic acid" href="https://commons.wikimedia.org/wiki/File:Mefenamic_acid2DACS.svg"><img width="512" alt="Mefenamic acid2DACS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Mefenamic_acid2DACS.svg/512px-Mefenamic_acid2DACS.svg.png"></a>
 
 
+
+This repository contains:
+
+- a PK-Sim snapshot (*.json) file of the current PBPK model
+- static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
+- an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
+
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](../../releases/latest).**
+
+**The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
+
 Mefenamic acid is a UGT1A9 inhibitor.
-
-**The latest release of this model including a report on model building, model features and model evaluation can be found [here](../../releases/latest).**
-
 
 
 ## Code of conduct
