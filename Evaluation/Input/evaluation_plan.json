@@ -3,7 +3,7 @@
     "Projects": [
         {
             "Id": "Mefenamic acid",
-            "Path": "../../Mefenamic_acid.json",
+            "Path": "../../Mefenamic_acid-Model.json",
             "BuildingBlocks": []
         }
     ],
