@@ -1,4 +1,4 @@
-Mefenamic acid is a nonsteroidal anti-inflammatory drug (NSAIDs). The mechanism of action of mefenamic acid, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2).
+Mefenamic acid is a nonsteroidal anti-inflammatory drug (NSAID). The mechanism of action of mefenamic acid, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2).
 
 Mefenamic acid has been described to undergo metabolism by CYP2C9; it is also glucuronidated directly ([DrugBank DB00784](#5-References)).
 

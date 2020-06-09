@@ -1,8 +1,7 @@
 **Becker 2015** Becker C, Boettcher M.-F. Study 17116: Interaction study to investigate the influence of a starting dose of 500 mg followed by multiple doses of 250 mg mefenamic acid every 6 hours on pharmacokinetics as well as safety and tolerability of a single dose of 2.5 mg vericiguat in comparison to a single dose of 2.5 mg vericiguat alone in healthy male subjects in a randomized, non-blinded, non-placebo-controlled, two-fold cross-over design. Bayer AG Clinical study report. 2015 Oct. Report-No. PH-38616.
 ***confidential data***
 
-**Champion 1978** Champion GD, Graham GG: Pharmacokinetics of non-steroidal anti-inflammatory
-agents. Aust NZ J Med. 8 (Supp 1): 94-100, Jun 1978.
+**Champion 1978** Champion GD, Graham GG: Pharmacokinetics of non-steroidal anti-inflammatory agents. Aust NZ J Med. 8 (Supp 1): 94-100, Jun 1978.
 
 **DrugBank DB00784** (https://www.drugbank.ca/drugs/DB00784)
 

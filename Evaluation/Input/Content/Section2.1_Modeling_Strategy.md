@@ -6,8 +6,7 @@ A base mean model was built using clinical Phase I data including data from publ
 
 Unknown parameters (see below) were identified using the Parameter Identification module provided in PK-Sim®. Structural model selection was mainly guided by visual inspection of the resulting description of data and biological plausibility.
 
-Finally, an *in vitro* in-house determined K<sub>i</sub> value of mefenamic acid on glucuronidation of propofol via
-UGT1A9 was applied to incorporate reversible UGT1A9 inhibition.
+Finally, an *in vitro* in-house determined K<sub>i</sub> value of mefenamic acid on glucuronidation of propofol via UGT1A9 was applied to incorporate reversible UGT1A9 inhibition.
 
 Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-Data).
 
