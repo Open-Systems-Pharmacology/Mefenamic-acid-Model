@@ -17,4 +17,4 @@ jobs:
         ref: ${{ github.event.pull_request.head.sha }}
     - uses: serokell/xrefcheck-action@v1
       with:
-        xrefcheck-args: --mode local-only --ignored Input --ignored README.md
+        xrefcheck-args: --mode local-only --ignored Evaluation/Input --ignored README.md
