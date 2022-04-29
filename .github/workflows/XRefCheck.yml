@@ -1,7 +1,7 @@
 name: XRefCheck
 
 on: 
-  pull_request:
+  push:
     branches:
       - review
 
