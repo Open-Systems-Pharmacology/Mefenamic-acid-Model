@@ -10,7 +10,7 @@
 **Goosen 2016** Goosen TC, Callegari E, Lin J, Tse S, Sahasrabudhe V. Physiologically based Pharmacokinetic Modeling of Drug-drug Interaction following Coadministration of Ertugliflozin and UGT Inhibitor Mefenamic Acid. Presented as poster at the 7th International Workshop on Regulatory Requirements and Current Scientific Aspects on the Preclinical and Clinical Investigations of Drug-Drug Interactions. 2016 May 29-31. Marbach Castle, Germany.
 
 **Goosen 2017** Goosen TC, Callegari E, Lin J, Tse S, Sahasrabudhe V. Characterization of UGT Inhibition as a
-Necessary and Important Strategy in Drug Development. Presented at the 20th Anniversary of the International Conference on Drug-Drug Interactions , Washington. 2017 June 21. Seattle, Washington, USA. (https://www.ifscomm.org/wp-content/uploads/2015/04/2017-06-21-GOOSEN_UGT-DDI_FINAL.pdf)
+Necessary and Important Strategy in Drug Development. Presented at the 20th Anniversary of the International Conference on Drug-Drug Interactions , Washington. 2017 June 21. Seattle, Washington, USA.
 
 **Hamaguchi 1987** Hamaguchi T, Shinkuma D, Yamanaka Y, Mizuno N. Effects of food on absorption of mefenamic acid from two commercial capsules differing in bioavailability under the fasting state. J Pharmacobiodyn. 1987 Jan;10(1):21-5.
 
