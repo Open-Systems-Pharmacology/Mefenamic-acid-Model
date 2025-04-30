@@ -2612,6 +2612,23 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "PO SD 250 mg|Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Hamaguchi 1987 - Treatment 2 - fasted with 200 mL of water - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=4)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "PO SD 250 mg|Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Mahadik 2012 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "PO SD 250 mg|Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rouini 2005 - Reference - Mefenamic acid - PO - 250 mg - Plasma - agg. (n=12)"
+        }
+      ],
       "Individual": "Standard_Adult",
       "Compounds": [
         {
@@ -2908,6 +2925,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "PO SD 500 mg|Organism|PeripheralVenousBlood|Mefenamic acid|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Goosen 2017 - 500 mg SD - Mefenamic acid - PO - 500 mg - Plasma - agg."
+        }
       ],
       "Individual": "Standard_Adult",
       "Compounds": [
