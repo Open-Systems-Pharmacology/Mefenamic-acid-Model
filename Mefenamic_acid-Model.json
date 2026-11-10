@@ -1,5 +1,7 @@
 {
-  "Version": 80,
+  "Name": "Mefenamic_acid-Model",
+  "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -10,65 +12,80 @@
         {
           "Path": "CYP3A4|Reference concentration",
           "Value": 4.32,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (intestine)",
           "Value": 1380.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (liver)",
           "Value": 2220.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
+          "Value": 0.0041682898325,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
+          "Value": 0.00078691079081,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
+          "Value": 0.0053603428126,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
+          "Value": 0.00042695753798,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -94,60 +111,74 @@
         {
           "Path": "CYP1A1|t1/2 (intestine)",
           "Value": 1380.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP1A1|t1/2 (liver)",
           "Value": 2160.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP1A1|Relative expression",
-          "Value": 0.0057142857143
+          "Value": 0.0057142857143,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP1A1|Relative expression",
-          "Value": 0.0316642121
+          "Value": 0.0316642121,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A1|Relative expression",
-          "Value": 0.0035198821797
+          "Value": 0.0035198821797,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A1|Relative expression",
-          "Value": 0.4394108984
+          "Value": 0.4394108984,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP1A1|Relative expression",
-          "Value": 0.4394108984
+          "Value": 0.4394108984,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP1A1|Relative expression",
-          "Value": 0.0259204713
+          "Value": 0.0259204713,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP1A1|Relative expression",
-          "Value": 0.0259204713
+          "Value": 0.0259204713,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP1A1|Relative expression",
-          "Value": 0.0259204713
+          "Value": 0.0259204713,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP1A1|Relative expression",
-          "Value": 0.0259204713
+          "Value": 0.0259204713,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP1A1|Relative expression",
-          "Value": 0.0259204713
+          "Value": 0.0259204713,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP1A1|Relative expression",
-          "Value": 0.0259204713
+          "Value": 0.0259204713,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
@@ -160,75 +191,93 @@
       "Parameters": [
         {
           "Path": "Organism|Gonads|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0013585313175
+          "Value": 0.0013585313175,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0788336933
+          "Value": 0.0788336933,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0349892009
+          "Value": 0.0349892009,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0349892009
+          "Value": 0.0349892009,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0349892009
+          "Value": 0.0349892009,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0349892009
+          "Value": 0.0349892009,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0349892009
+          "Value": 0.0349892009,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.0349892009
+          "Value": 0.0349892009,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|UGT1A1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.00027429805616
+          "Value": 0.00027429805616,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.3239740821
+          "Value": 0.3239740821,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.3239740821
+          "Value": 0.3239740821,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.3239740821
+          "Value": 0.3239740821,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.3239740821
+          "Value": 0.3239740821,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.3239740821
+          "Value": 0.3239740821,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.3239740821
+          "Value": 0.3239740821,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|UGT1A1|Relative expression",
-          "Value": 0.016349892
+          "Value": 0.016349892,
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT1A1|Reference concentration",
@@ -242,12 +291,14 @@
         {
           "Path": "UGT1A1|t1/2 (intestine)",
           "Value": 1380.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT1A1|t1/2 (liver)",
           "Value": 2160.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -263,71 +314,88 @@
       "Parameters": [
         {
           "Path": "Organism|Gonads|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.00016153846154
+          "Value": 0.00016153846154,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|UGT1A9|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
+          "Value": 0.0079487179487,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
+          "Value": 0.0079487179487,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
+          "Value": 0.0079487179487,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
+          "Value": 0.0079487179487,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
+          "Value": 0.0079487179487,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
+          "Value": 0.0079487179487,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0982905983
+          "Value": 0.0982905983,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0982905983
+          "Value": 0.0982905983,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
+          "Value": 0.0041282051282,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
+          "Value": 0.0041282051282,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
+          "Value": 0.0041282051282,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
+          "Value": 0.0041282051282,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
+          "Value": 0.0041282051282,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
+          "Value": 0.0041282051282,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0017264957265
+          "Value": 0.0017264957265,
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT1A9|Reference concentration",
@@ -341,12 +409,14 @@
         {
           "Path": "UGT1A9|t1/2 (intestine)",
           "Value": 1380.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT1A9|t1/2 (liver)",
           "Value": 2160.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -363,41 +433,50 @@
         {
           "Path": "Cleavage-protein|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "Cleavage-protein|t1/2 (intestine)",
           "Value": 1380.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Cleavage-protein|t1/2 (liver)",
           "Value": 2160.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lumen|Caecum|Cleavage-protein|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lumen|ColonAscendens|Cleavage-protein|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lumen|ColonDescendens|Cleavage-protein|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lumen|ColonSigmoid|Cleavage-protein|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lumen|ColonTransversum|Cleavage-protein|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lumen|Rectum|Cleavage-protein|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
@@ -420,108 +499,134 @@
         {
           "Path": "ABCG2|t1/2 (intestine)",
           "Value": 1380.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "ABCG2|t1/2 (liver)",
           "Value": 2160.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Bone|Intracellular|ABCG2|Relative expression",
-          "Value": 0.2113821138
+          "Value": 0.2113821138,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|ABCG2|Relative expression",
-          "Value": 0.4552845528
+          "Value": 0.4552845528,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|ABCG2|Relative expression",
-          "Value": 0.2703252033
+          "Value": 0.2703252033,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|ABCG2|Relative expression",
-          "Value": 0.1099593496
+          "Value": 0.1099593496,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|ABCG2|Relative expression",
-          "Value": 0.0941056911
+          "Value": 0.0941056911,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|ABCG2|Relative expression",
-          "Value": 0.1593495935
+          "Value": 0.1593495935,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|Intracellular|ABCG2|Relative expression",
-          "Value": 0.1593495935
+          "Value": 0.1593495935,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|ABCG2|Relative expression",
-          "Value": 0.1593495935
+          "Value": 0.1593495935,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|ABCG2|Relative expression",
-          "Value": 0.1593495935
+          "Value": 0.1593495935,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|ABCG2|Relative expression",
-          "Value": 0.1593495935
+          "Value": 0.1593495935,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|ABCG2|Relative expression",
-          "Value": 0.1593495935
+          "Value": 0.1593495935,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|ABCG2|Relative expression",
-          "Value": 0.2825203252
+          "Value": 0.2825203252,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|ABCG2|Relative expression",
-          "Value": 0.2825203252
+          "Value": 0.2825203252,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|ABCG2|Relative expression",
-          "Value": 0.2154471545
+          "Value": 0.2154471545,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|ABCG2|Relative expression",
-          "Value": 0.0331300813
+          "Value": 0.0331300813,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|ABCG2|Relative expression",
-          "Value": 0.0054268292683
+          "Value": 0.0054268292683,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|ABCG2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|ABCG2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|ABCG2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|ABCG2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|ABCG2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|ABCG2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Spleen|Intracellular|ABCG2|Relative expression",
-          "Value": 0.0585365854
+          "Value": 0.0585365854,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|ABCG2|Relative expression",
-          "Value": 0.0404471545
+          "Value": 0.0404471545,
+          "ValueOrigin": {}
         }
       ],
       "TransportType": "Efflux",
@@ -764,108 +869,134 @@
         {
           "Path": "ABCB1|t1/2 (intestine)",
           "Value": 1380.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "ABCB1|t1/2 (liver)",
           "Value": 2160.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Bone|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0341950646
+          "Value": 0.0341950646,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1072855464
+          "Value": 0.1072855464,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|ABCB1|Relative expression",
-          "Value": 0.024559342
+          "Value": 0.024559342,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Heart|Intracellular|ABCB1|Relative expression",
-          "Value": 0.059106933
+          "Value": 0.059106933,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|ABCB1|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|ABCB1|Relative expression",
-          "Value": 0.2702702703
+          "Value": 0.2702702703,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|ABCB1|Relative expression",
-          "Value": 0.2702702703
+          "Value": 0.2702702703,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0927144536
+          "Value": 0.0927144536,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Muscle|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0180963572
+          "Value": 0.0180963572,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0200940071
+          "Value": 0.0200940071,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Spleen|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1047003525
+          "Value": 0.1047003525,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Stomach|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0367802585
+          "Value": 0.0367802585,
+          "ValueOrigin": {}
         }
       ],
       "TransportType": "PgpLike",
@@ -1096,17 +1227,17 @@
           "Percentile": 0.0,
           "DistributionMetaData": [
             {
-              "Mean": 1E-14,
+              "Mean": 1e-14,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 1.915059E-05,
+              "Mean": 1.915059e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 5.486795E-05,
+              "Mean": 5.486795e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
@@ -1225,17 +1356,17 @@
           "Points": [
             {
               "X": 0.0,
-              "Y": 1E-14,
+              "Y": 1e-14,
               "RestartSolver": false
             },
             {
               "X": 0.08333334,
-              "Y": 1.915059E-05,
+              "Y": 1.915059e-05,
               "RestartSolver": false
             },
             {
               "X": 0.1666667,
-              "Y": 5.486795E-05,
+              "Y": 5.486795e-05,
               "RestartSolver": false
             },
             {
@@ -1356,21 +1487,25 @@
         {
           "Path": "M-1 TS|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "M-1 TS|t1/2 (intestine)",
           "Value": 1380.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "M-1 TS|t1/2 (liver)",
           "Value": 2160.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|M-1 TS|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ],
       "TransportType": "Efflux",
@@ -1690,7 +1825,8 @@
             },
             {
               "Name": "Reference pH",
-              "Value": 5.5
+              "Value": 5.5,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1701,7 +1837,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 1.4111809841E-05,
+              "Value": 1.4111809841e-05,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -1730,17 +1866,20 @@
           "Parameters": [
             {
               "Name": "Fraction unbound (experiment)",
-              "Value": 0.01
+              "Value": 0.01,
+              "ValueOrigin": {}
             },
             {
               "Name": "Lipophilicity (experiment)",
               "Value": 3.52,
-              "Unit": "Log Units"
+              "Unit": "Log Units",
+              "ValueOrigin": {}
             },
             {
               "Name": "Plasma clearance",
               "Value": 0.2328761,
-              "Unit": "l/h/kg"
+              "Unit": "l/h/kg",
+              "ValueOrigin": {}
             },
             {
               "Name": "Specific clearance",
@@ -1762,12 +1901,14 @@
             {
               "Name": "Ki_c",
               "Value": 0.3,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Ki_u",
               "Value": 21.3,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1780,7 +1921,8 @@
         {
           "Name": "Molecular weight",
           "Value": 241.29,
-          "Unit": "g/mol"
+          "Unit": "g/mol",
+          "ValueOrigin": {}
         }
       ]
     }
@@ -1803,7 +1945,8 @@
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
@@ -1816,7 +1959,8 @@
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     }
@@ -1837,17 +1981,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 500.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1856,16 +2003,19 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1880,17 +2030,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 250.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1932,17 +2085,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 250.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1954,17 +2110,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 500.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ]
     }
@@ -2002,17 +2161,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2021,7 +2183,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2034,7 +2197,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2043,62 +2207,74 @@
         {
           "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|t1/2 (intestine)",
           "Value": 1380.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|t1/2 (liver)",
           "Value": 2160.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2140,7 +2316,8 @@
           "Name": "snack (MEFA)",
           "StartTime": {
             "Value": 0.0,
-            "Unit": "h"
+            "Unit": "h",
+            "ValueOrigin": {}
           }
         },
         {
@@ -2225,6 +2402,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "UGT1A9-PH-41095",
+          "MoleculeName": "UGT1A9",
+          "CompoundName": "Mefenamic acid"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2526,13 +2710,6 @@
           },
           "OriginText": "Mefenamic_acid\nPO MD 500 mg loading / 250 mg every 6 h\n2019-08-25 20:13"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "UGT1A9-PH-41095",
-          "MoleculeName": "UGT1A9",
-          "CompoundName": "Mefenamic acid"
-        }
       ]
     },
     {
@@ -2550,17 +2727,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2569,7 +2749,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2582,7 +2763,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2591,22 +2773,26 @@
         {
           "Path": "Events|250 mg SD|Ponstan capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|t1/2 (intestine)",
           "Value": 1380.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|t1/2 (liver)",
           "Value": 2160.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2661,6 +2847,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "UGT1A9-PH-41095",
+          "MoleculeName": "UGT1A9",
+          "CompoundName": "Mefenamic acid"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2842,13 +3035,6 @@
           "Title": "PO SD 250 mg",
           "OriginText": "Mefenamic_acid\nPO SD 250 mg\n2019-08-19 10:32"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "UGT1A9-PH-41095",
-          "MoleculeName": "UGT1A9",
-          "CompoundName": "Mefenamic acid"
-        }
       ]
     },
     {
@@ -2864,17 +3050,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2883,7 +3072,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -2896,7 +3086,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -2905,22 +3096,26 @@
         {
           "Path": "Events|500 mg SD|Ponstan capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|t1/2 (intestine)",
           "Value": 1380.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Path": "Undefined Liver|t1/2 (liver)",
           "Value": 2160.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2965,6 +3160,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "UGT1A9-PH-41095",
+          "MoleculeName": "UGT1A9",
+          "CompoundName": "Mefenamic acid"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3102,13 +3304,6 @@
           "Title": "PO SD 500 mg",
           "OriginText": "Mefenamic_acid\nPO SD 500 mg\n2019-08-19 10:32"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "UGT1A9-PH-41095",
-          "MoleculeName": "UGT1A9",
-          "CompoundName": "Mefenamic acid"
-        }
       ]
     }
   ],
@@ -3220,11 +3415,11 @@
           },
           "Values": [
             1.754476,
-            2.60485888,
+            2.6048589,
             3.079284,
             2.542199,
             2.345269,
-            2.06777477,
+            2.0677748,
             1.5664959,
             1.101023,
             0.5997443,
@@ -3373,19 +3568,19 @@
             0.07125891,
             1.128266,
             1.567696,
-            1.55581892,
+            1.5558189,
             1.324228,
             1.751781,
             1.745843,
             1.561758,
             2.173397,
-            1.52018988,
+            1.5201899,
             1.330166,
             1.027316,
-            0.587886035,
-            0.415676981,
+            0.58788604,
+            0.41567698,
             0.3266033,
-            0.267220885,
+            0.26722088,
             0.1068884
           ],
           "Dimension": "Concentration (mass)",
@@ -4109,8 +4304,8 @@
             4.538129,
             5.188796,
             6.102819,
-            5.88669062,
-            2.09378719,
+            5.8866906,
+            2.0937872,
             0.8723136
           ],
           "Dimension": "Concentration (mass)",
